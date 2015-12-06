@@ -1,0 +1,14 @@
+// UNMANNED FLYERS : _page-logo.scss
+
+.page-logo {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  .logo-break {
+    display: block;
+  }
+  .logo-red {
+    color: $flyers-red;
+    font-style: italic;
+  }
+}

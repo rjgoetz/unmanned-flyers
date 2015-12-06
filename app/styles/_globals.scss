@@ -1,0 +1,13 @@
+// _globals.scss
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 960px;
+  font: 14px/1.5 'Lato', sans-serif;  
+}
