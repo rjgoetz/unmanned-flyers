@@ -1,0 +1,21 @@
+// UNMANNED FLYERS : _weather.scss
+
+.weather {
+  p {
+    display: inline-block;
+    font-weight: 300;
+    &:first-of-type {
+      font-size: 36px;
+    }
+    &:last-of-type {
+      text-transform: uppercase;
+      line-height: 1.2;
+      span {
+        display: block;
+      }
+    }
+  }
+  img {
+    text-align: center;
+  }
+}
