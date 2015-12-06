@@ -1,0 +1,20 @@
+// UNMANNED FLYERS : _top-nav.scss
+
+.top-nav {
+  ul {
+    text-transform: uppercase;
+    @include clearfix;
+    li {
+      float: left;
+      padding-right: 94 / 14 * 1em;
+      a {
+        display: block;
+        padding-bottom: 1px;
+        color: $flyers-white;
+        &:hover {
+          border-bottom: 1px solid $flyers-red;
+        }
+      }
+    }
+  }
+}

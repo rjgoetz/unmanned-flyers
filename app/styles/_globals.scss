@@ -3,11 +3,25 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
   width: 960px;
-  font: 14px/1.5 'Lato', sans-serif;  
+  font: 14px/1.5 'Lato', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
