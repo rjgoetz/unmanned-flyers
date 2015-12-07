@@ -1,0 +1,51 @@
+// UNMANNED FLYERS : _login.scss
+
+.login {
+  font-weight: 300;
+  @include clearfix;
+  .arrow-right {
+      float: left;
+      padding-right: 1em;
+      width: 0;
+      height: 0;
+      border-top: 33px solid transparent;
+      border-bottom: 33px solid transparent;
+      border-left: 33px solid $flyers-white;
+  }
+  p {
+    float: left;
+    text-transform: uppercase;
+    span {
+      text-transform: initial;
+      display: block;
+      font-size: 1.5em;
+      line-height: 1;
+      font-weight: bold;
+    }
+  }
+  button {
+    float: right;
+    width: 70px;
+    height: 30px;
+    background: $flyers-blue;
+    border: 0;
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+
+    /* IE */
+    -ms-transform: rotate(90deg);
+
+    /* Opera */
+    -o-transform: rotate(90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+}
