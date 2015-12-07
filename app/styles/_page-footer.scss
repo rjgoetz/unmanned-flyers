@@ -1,0 +1,72 @@
+// UNMANNED FLYERS : _page-footer.scss
+
+.page-footer {
+  background: url('../images/footer-bg.jpg') no-repeat;
+  padding-top: 8px;
+  .footer-nav {
+    font-weight: 300;
+    color: $flyers-white;
+    .logo {
+      font-size: 1rem;
+      line-height: 1.2;
+      text-transform: uppercase;
+      padding-right: 60 / 14 * 1rem;
+      .logo-break {
+        display: block;
+      }
+      .logo-red {
+        color: $flyers-red;
+        font-style: italic;
+      }
+      a {
+        color: $flyers-white;
+        &:hover {
+          color: $flyers-white;
+        }
+      }
+    }
+    ul {
+      li:first-of-type {
+      color: $flyers-red;
+      text-transform: uppercase;
+      }
+    }
+    a {
+      color: $flyers-white;
+      &:hover {
+        color: $flyers-red;
+      }
+    }
+    &> div div:nth-child(5) {
+      border-left: 1px solid $flyers-white;
+      padding-left: 13px;
+    }
+    &> div div:last-of-type {
+      border-left: 1px solid $flyers-white;
+      padding-left: 13px;
+    }
+  }
+  .email-form {
+    position: relative;
+    .email {
+      width: 100%;
+      height: 20px;
+      background: $white;
+      color: $flyers-black;
+      position: relative;
+    }
+    .arrow-right {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        background: none;
+        border: 0;
+        width: 0;
+        height: 0;
+        padding: 0;
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+        border-left: 9px solid $flyers-red;
+    }
+  }  
+}

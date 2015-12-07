@@ -1,0 +1,38 @@
+// UNMANNED FLYERS : _social-nav.scss
+
+.social-nav {
+  text-transform: uppercase;
+  padding-left: 13px;
+  height: 50px;
+  padding-top: 18px;
+  p {
+    margin: 0;
+    color: $flyers-red;
+    float: left;
+    span {
+      color: $flyers-black;
+      padding: 0 8px;
+    }
+  }
+  ul {
+    margin: 0;
+    float: left;
+    li {
+      float: left;
+      padding-right: 12px;
+    }
+  }
+  a {
+    color: $flyers-black;
+    &:hover {
+      color: $flyers-red;
+    }
+  }
+  .copyright {
+    margin: 0;
+    padding-top: 2px;
+    float: right;
+    font-size: 0.85em;
+    color: $flyers-black;
+  }
+}

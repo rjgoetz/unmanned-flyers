@@ -6,11 +6,17 @@
 @import "grid";
 @import "globals";
 
-// modules
+// page header
 @import "page-header";
 @import "page-logo";
 @import "weather";
 @import "top-nav";
 @import "login";
+
+// carousel
 @import "carousel";
 @import "learn-fly-discuss";
+
+// page-footer
+@import "page-footer";
+@import "social-nav";
