@@ -3,4 +3,7 @@
 .page-header {
   background: $flyers-black;
   color: $flyers-white;
+  .row:last-of-type {
+    border-top: 1px solid $flyers-white;
+  }
 }

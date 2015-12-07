@@ -1,9 +1,12 @@
 // UNMANNED FLYERS : _page-logo.scss
 
 .page-logo {
+  float: left;
   font-size: 1.5rem;
   line-height: 1.2;
   text-transform: uppercase;
+  padding: 13px 13px;
+  padding-right: 60 / 14 * 1rem;
   .logo-break {
     display: block;
   }

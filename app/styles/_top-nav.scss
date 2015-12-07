@@ -1,12 +1,17 @@
 // UNMANNED FLYERS : _top-nav.scss
 
 .top-nav {
+  padding: 35px 0 0 13px;
   ul {
     text-transform: uppercase;
     @include clearfix;
     li {
       float: left;
-      padding-right: 94 / 14 * 1em;
+      padding-right: 95 / 14 * 1em;
+      font-weight: 300;
+      &:last-of-type {
+        float: right;
+      }
       a {
         display: block;
         padding-bottom: 1px;
