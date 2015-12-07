@@ -2,7 +2,8 @@
 
 .page-footer {
   background: url('../images/footer-bg.jpg') no-repeat;
-  padding-top: 8px;
+  padding-top: 22px;
+  height: 200px;
   .footer-nav {
     font-weight: 300;
     color: $flyers-white;
@@ -26,6 +27,7 @@
       }
     }
     ul {
+      margin: 0;
       li:first-of-type {
       color: $flyers-red;
       text-transform: uppercase;
@@ -68,5 +70,5 @@
         border-bottom: 9px solid transparent;
         border-left: 9px solid $flyers-red;
     }
-  }  
+  }
 }

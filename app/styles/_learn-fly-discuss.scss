@@ -4,7 +4,6 @@
   position: relative;
   .overlay {
     position: absolute;
-    z-index: 99;
     width: 960px;
   }
   h2 {
@@ -44,7 +43,7 @@
   }
   .featured-photo {
     color: $flyers-white;
-    margin-top: 290px;
+    margin-top: 190px;
     h3 {
       font-size: 1.3em;
       font-weight: bold;
