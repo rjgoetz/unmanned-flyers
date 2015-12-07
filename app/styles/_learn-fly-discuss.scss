@@ -5,6 +5,7 @@
   .overlay {
     position: absolute;
     width: 960px;
+    z-index: 99;
   }
   h2 {
     margin-top: 152px;
