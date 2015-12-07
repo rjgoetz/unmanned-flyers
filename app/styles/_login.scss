@@ -8,16 +8,20 @@
   .arrow-right {
       float: left;
       padding-right: 1em;
+      margin-top: 10px;
       width: 0;
       height: 0;
-      border-top: 33px solid transparent;
-      border-bottom: 33px solid transparent;
-      border-left: 33px solid $flyers-white;
+      border-top: 22px solid transparent;
+      border-bottom: 22px solid transparent;
+      border-left: 22px solid $flyers-white;
   }
   p {
     float: left;
     text-transform: uppercase;
+    margin: 0;
+    padding-top: 4px;
     span {
+      padding-top: 8px;
       text-transform: initial;
       display: block;
       font-size: 1.5em;
