@@ -7,21 +7,24 @@
 		height: 763px;
 	}
 	.carousel-buttons {
-		position: absolute;
-		bottom: 3px;
-		left: 443px;
-		width: 96px;
-		margin: 0;
-		a {
-			display: block;
-			float: left;
-			width: 12px;
-			height: 12px;
-			margin-right: 20px;
-			background: $flyers-white;
-		}
-		.active {
-			background: $flyers-yellow;
-		}
+		margin-top: 242px;
 	}
+	// .carousel-buttons {
+	// 	position: absolute;
+	// 	bottom: 3px;
+	// 	left: 443px;
+	// 	width: 96px;
+	// 	margin: 0;
+	// 	a {
+	// 		display: block;
+	// 		float: left;
+	// 		width: 12px;
+	// 		height: 12px;
+	// 		margin-right: 20px;
+	// 		background: $flyers-white;
+	// 	}
+	// 	.active {
+	// 		background: $flyers-yellow;
+	// 	}
+	// }
 }
