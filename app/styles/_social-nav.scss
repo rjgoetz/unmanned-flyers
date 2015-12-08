@@ -5,6 +5,7 @@
   padding-left: 13px;
   height: 50px;
   padding-top: 40px;
+  font-size: 0.75rem;
   p {
     margin: 0;
     color: $flyers-red;
@@ -30,9 +31,8 @@
   }
   .copyright {
     margin: 0;
-    padding: 3px 13px 0 0;
+    padding-right: 13px;
     float: right;
     color: $flyers-black;
-    font-size: 0.8em;
   }
 }

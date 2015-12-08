@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Twin Cities Community of Unmanned Flyers | Safety</title>
+    <title>Twin Cities Community of Unmanned Flyers | Maps</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -71,10 +71,10 @@
         <!-- SUB-PAGE HEADER -->
         <div class="row">
             <header class="sub-page-header">
-              <h1>Safety &amp; Regulations</h1>
+              <h1>Flight Maps</h1>
               <ul>
                 <li><a href="#">Resources</a><span class="slash">/</span></li>
-                <li><a href="safety.html">Safety</a></li>
+                <li><a href="maps.html">Maps</a></li>
               </ul>
             </header>
           <!-- </div> -->
@@ -83,65 +83,40 @@
 
         <!-- SUB-PAGE MAIN CONTENT -->
         <div class="row">
+          <div id="map"></div>
+        </div>
+
+        <div class="row">
           <div class="col col1-10"></div>
           <div class="col col8-10">
-            <p>Currently, small unmanned aircraft systems (sUAS) may be operated for hobby and recreational purposes under specific safety guidelines as established by Congress. Small UAS flown for recreational purposes are typically known as model aircraft.</p>
-
-            <p>Under the Special Rule for Model Aircraft, recreational UAS must be operated in accordance with several requirements, including a community-based set of safety guidelines and within the programming of a nationwide community-based organization such as the Academy of Model Aeronautics (AMA). Operators not operating within the safety program of a community-based organization should follow the FAA’s guidance here.</p>
-
-            <h2>What are the safety guidelines for sUAS recreational users?</h2>
-
-            <ul class="yellow-dots">
-              <li>Follow community-based safety guidelines, as developed by organizations such as the <a href="#">Academy of Model Aeronautics</a> (AMA).</li>
-              <li>Fly no higher than 400 feet and remain below any surrounding obstacles when possible.</li>
-              <li>Keep your sUAS in eyesight at all times, and use an observer to assist if needed.</li>
-              <li>Remain well clear of and do not interfere with manned aircraft operations, and you must see and avoid other aircraft and obstacles at all times.</li>
-              <li>Do not intentionally fly over unprotected persons or moving vehicles, and remain at least 25 feet away from individuals and vulnerable property.</li>
-              <li>Contact the airport or control tower before flying within five miles of an airport.</li>
-              <li>Do not fly in adverse weather conditions such as in high winds or reduced visibility.</li>
-              <li>Do not fly under the influence of alcohol or drugs.</li>
-              <li>Ensure the operating environment is safe and that the operator is competent and proficient in the operation of the sUAS.</li>
-              <li>Do not fly near or over sensitive infrastructure or property such as power stations, water treatment facilities, correctional facilities, heavily traveled roadways, government facilities, etc.</li>
-              <li>Check and follow all local laws and ordinances before flying over private property.</li>
-              <li>Do not conduct surveillance or photograph persons in areas where there is an expectation of privacy without the individual’s permission (see AMA’s <a href="#">privacy policy</a>).</li>
-            </ul>
+            <h2>How to Read the Map</h2>
           </div>
-          <div class="col col1-10"></div>
+        </div>
+        <div class="row">
+          <div class="col col2-10"></div>
+          <div class="col col8-10">
+            <h3>Airport</h3>
+            <p>Community-based guidelines require recreational operators to give notice for flights within 5 statute miles of an airport. Notice must be given to the airport operator or air traffic control tower, if the airport has a tower. Tap or click on an airspace area to see the airport operator phone number.</p>
+
+            <h3>Temporary Flight Restrictions</h3>
+            <p>Temporary Flight Restrictions (TFRs) are used by the FAA to temporarily restrict flights in certain areas. Some TFRs have become more permanent, like those around Disneyland and Disneyworld. But most are event based, for example when the President comes to town or to protect airspace for an airshow. The FAA publishes TFRs as necessary, but there are also "unpublished" TFRs for sporting events. AirMap does not yet incorporate these unpublished TFRs, but soon it will!</p>
+
+            <h3>Prohibited or Restricted Airspace</h3>
+            <p>Prohibited areas protect the most sensitive areas in the United States, such as the White House and Camp David. Permission from the using agency (such as the Secret Service) is required to enter a Prohibited Area and is almost never available.</p>
+
+            <p>Restricted areas are typically located around military installations or other areas where flight could be hazardous. Permission from the controlling agency (air traffic control) is required to enter these areas and is often not available.</p>
+
+            <h3>National Parks</h3>
+            <p>This layer depicts land that the National Park Service has deemed part of national recreation areas. As such it will be overinclusive, taking account of areas that are not directly administered by the National Park Service. We are working to update the data, for now, recognize that this map layer may not be completely accurate.</p>
+
+            <h3>NOAA Marine Protection Areas</h3>
+            <p>National Oceanic and Atmospheric Administration regulations prohibit certain flights of powered aircraft (including drones) in these areas. More information available on <a href="#">NOAA's website</a>.</p>
+
+          </div>
         </div>
         <!--END SUB-PAGE MAIN CONTENT-->
 
-        <!-- VIDEOS -->
-        <div class="row">
-          <div class="col col1-10"></div>
-          <div class="col col8-10">
-            <h2>Videos</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col col1-10"></div>
-
-          <div class="col col3-10">
-            <div class="video">
-              <a href="#"><img src="../images/know-before-you-fly-video.jpg" alt="drone video 1"></a>
-              <figure>
-                <figcaption>Know Before You Fly</figcaption>
-              </figure>
-            </div>
-          </div>
-
-          <div class="col col1-10"></div>
-
-          <div class="col col3-10">
-            <div class="video">
-              <a href="#"><img src="../images/hoot-gibson-video.jpg" alt="drone video 2"></a>
-              <figure>
-                <figcaption>A message from Hoot Gibson, AMA Amabassador.</figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-        <!-- END VIDEOS -->
+        
       </article>
       <div class="image-strip col1-6"></div>
     </main>
@@ -217,7 +192,7 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src="../scripts/main.js"></script>
     <!-- endbuild -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
   </body>
