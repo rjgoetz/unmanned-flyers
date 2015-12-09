@@ -25,9 +25,24 @@ function fadeLogIn() {
 	});
 };
 
+var html;
+
 $(document).ready(function(){
 	// slide-out login
 	fadeLogIn();
+
+	// weather plugin
+	$.simpleWeather({
+		location: "Minneapolis, MN",
+		unit: "f",
+		success: function(weather) {
+			html = "<p>"+weather.temp+"&deg;"+weather.units.temp+"</p><img src='../images/weather/"+weather.code+".png'><p>"+weather.wind.direction+" "+weather.wind.speed+" "+weather.units.speed+"</p>";
+			$(".weather").html(html);
+		},
+		error: function(error) {
+			$(".weather").html('<p>'+error+'</p>');
+		}
+	});
 
 	// owl-carousel script
 	$("#carousel").owlCarousel({
