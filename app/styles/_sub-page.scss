@@ -2,7 +2,7 @@
 
 .sub-page {
   padding-bottom: 80px;
-  font-size: 1.14rem;
+  font-size: 1.05rem;
   font-weight: 300;
   line-height: 1.6;
   @include clearfix;
@@ -60,8 +60,29 @@
   .maps-bg {
     background: url('../images/maps-bg.jpg') no-repeat top right;
   }
-  .map-symbol {
-    position: relative;
-    left: 0;
+  .airport-bg {
+    margin-top: 1.2rem;
+    height: 50px;
+    background: url('../images/airport.png') no-repeat top center;
+  }
+  .temporary-bg {
+    margin-top: 1.2rem;
+    height: 50px;
+    background: url('../images/temporary.png') no-repeat top center;
+  }
+  .restricted-bg {
+    margin-top: 1.2rem;
+    height: 50px;
+    background: url('../images/restricted.png') no-repeat top center;
+  }
+  .national-parks-bg {
+    margin-top: 1.2rem;
+    height: 50px;
+    background: url('../images/national-parks.png') no-repeat top center;
+  }
+  .noaa-bg {
+    margin-top: 1.2rem;
+    height: 50px;
+    background: url('../images/noaa.png') no-repeat top center;
   }
 }
