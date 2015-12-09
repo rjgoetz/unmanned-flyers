@@ -13,13 +13,14 @@
     <!-- bower:css -->
     <link rel='stylesheet' href='/bower_components/normalize.css/normalize.css' />
     <link rel='stylesheet' href='/bower_components/owl-carousel2/dist/assets/owl.carousel.css' />
+    <link rel="stylesheet" href="/bower_components/owl-carousel2/dist/assets/owl.theme.default.min.css" />
     <link rel='stylesheet' href='/bower_components/magnific-popup/dist/magnific-popup.css' />
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -57,10 +58,17 @@
             </ul>
           </nav>
         </div>
-        <div class="col col1-4">
+        <div class="col col1-4 login-area">
           <aside class="login">
             <div class="arrow-right"></div>
             <p>Flyer :<span>Guest</span></p>
+            <button><span>Log In</span></button>
+          </aside>
+          <aside class="login-form">
+            <form>
+              <input type="text" name="flyer" placeholder="Flyer">
+              <input type="password" name="password" placeholder="Password">
+            </form>
             <button><span>Log In</span></button>
           </aside>
         </div>
