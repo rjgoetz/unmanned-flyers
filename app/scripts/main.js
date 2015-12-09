@@ -36,7 +36,7 @@ $(document).ready(function(){
 		location: "Minneapolis, MN",
 		unit: "f",
 		success: function(weather) {
-			html = "<p>"+weather.temp+"&deg;"+weather.units.temp+"</p><img src='../images/weather/"+weather.code+".png'><p>"+weather.wind.direction+" "+weather.wind.speed+" "+weather.units.speed+"</p>";
+			html = "<p>"+weather.temp+"&deg;"+weather.units.temp+"</p><img src='../images/weather/"+weather.code+".png'><p>"+weather.wind.speed+" "+weather.units.speed+"<span>"+weather.wind.direction+"</span></p>";
 			$(".weather").html(html);
 		},
 		error: function(error) {
