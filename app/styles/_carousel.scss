@@ -1,30 +1,31 @@
 // _carousel.scss
 
-.carousel {
+#carousel {
 	position: relative;
-	article {
-		width: 960px;
-		height: 763px;
+	height: 763px;
+	.item img {
+		display: block;
+		width: 100%;
+		height: auto;
 	}
 	.carousel-buttons {
 		margin-top: 242px;
 	}
-	// .carousel-buttons {
-	// 	position: absolute;
-	// 	bottom: 3px;
-	// 	left: 443px;
-	// 	width: 96px;
-	// 	margin: 0;
-	// 	a {
-	// 		display: block;
-	// 		float: left;
-	// 		width: 12px;
-	// 		height: 12px;
-	// 		margin-right: 20px;
-	// 		background: $flyers-white;
-	// 	}
-	// 	.active {
-	// 		background: $flyers-yellow;
-	// 	}
-	// }
+	.owl-dots {
+		position: relative;
+		bottom: 62px;
+	}
+	.owl-dot span {
+		border-radius: 0;
+		margin: 0 0.75rem;
+		height: 12px;
+		width: 12px;
+		background: $flyers-white;
+		&:hover {
+			background: $flyers-yellow;
+		}
+	}
+	.owl-dot.active span {
+		background: $flyers-yellow;
+	}
 }

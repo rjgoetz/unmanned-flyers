@@ -5,7 +5,7 @@
   .overlay {
     position: absolute;
     width: 960px;
-    z-index: 99;
+    z-index: 1;
   }
   h2 {
     margin-top: 152px;
@@ -23,7 +23,7 @@
     font-size: 1.5em;
     text-transform: uppercase;
     height: 74 / 14 * 1rem;
-    background: rgba(216, 138, 69, 0.5);
+    background: rgba(248, 154, 30, 0.5);
     .arrow-right {
         position: absolute;
         top: 10px;

@@ -12,13 +12,16 @@ function initialize() {
 };
 
 $(document).ready(function(){
-	$(".owl-carousel").owlCarousel({
-		autoplay: true,
+	$("#carousel").owlCarousel({
+		autoplay: 2000,
 		autoplayHoverPause: true,
 		loop: true,
-		items: 3,
-		autoWidth: true
+		items: 1
 	});
 
-	google.maps.event.addDomListener(window, 'load', initialize);
+	if ($("#map").length > 0) {
+		google.maps.event.addDomListener(window, 'load', initialize);
+	} else {
+		console.log("No map");
+	};
 });
