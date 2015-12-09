@@ -51,8 +51,17 @@
     }
   }
   .image-strip {
-    height: 900px;
-    background: $flyers-black;
+    height: 1250px;
     float: right;
+  }
+  .safety-bg {
+    background: url('../images/safety-bg.jpg') no-repeat top right;
+  }
+  .maps-bg {
+    background: url('../images/maps-bg.jpg') no-repeat top right;
+  }
+  .map-symbol {
+    position: relative;
+    left: 0;
   }
 }
