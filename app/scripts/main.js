@@ -19,9 +19,20 @@ $(document).ready(function(){
 		items: 1
 	});
 
+	$(".popup-youtube").magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+
 	if ($("#map").length > 0) {
 		google.maps.event.addDomListener(window, 'load', initialize);
 	} else {
 		console.log("No map");
 	};
+
 });
