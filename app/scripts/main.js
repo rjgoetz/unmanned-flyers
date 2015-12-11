@@ -50,6 +50,7 @@ $(document).ready(function(){
 	$("#carousel").slick({
 		autoplay: true,
 		dots: true,
+		arrows: false,
 		infinite: true,
 		pauseOnHover: true,
 		pauseOnDotsHover: true,
