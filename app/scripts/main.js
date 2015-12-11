@@ -46,12 +46,14 @@ $(document).ready(function(){
 		}
 	});
 
-	// owl-carousel script
-	$("#carousel").owlCarousel({
-		autoplay: 2000,
-		autoplayHoverPause: true,
-		loop: true,
-		items: 1
+	// slick-carousel script
+	$("#carousel").slick({
+		autoplay: true,
+		dots: true,
+		infinite: true,
+		pauseOnHover: true,
+		pauseOnDotsHover: true,
+		speed: 200
 	});
 
 	// video popup script
