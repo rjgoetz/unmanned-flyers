@@ -45,6 +45,9 @@
     background: $flyers-blue;
     border: 0;
     transform-origin: top right;
+
+    -webkit-transform-origin: top right;
+
     /* Safari */
     -webkit-transform: rotate(90deg);
 
